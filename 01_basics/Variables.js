@@ -9,5 +9,10 @@ accountEmail = "sg@gmail.com"; // This is allowed because accountEmail is declar
 accountPassword = "67890"; // This is allowed because accountPassword is declared with var
 accountCity = "Mumbai"; // This is allowed because accountCity is not declared with let or var
 
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
 console.log(accountId, accountEmail, accountPassword, accountCity);
 console.table([accountId, accountEmail, accountPassword, accountCity]);
