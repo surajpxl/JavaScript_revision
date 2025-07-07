@@ -27,3 +27,47 @@ let someNumber = 33;
 let stringNumber = String(someNumber); // converts number to string
 // console.log(stringNumber); // "33"
 // console.log(typeof stringNumber); // string  
+
+// *******************Operations***********************
+
+let value = 3
+let negValue = -value; // negates the value
+console.log(negValue); // -3
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3); // exponentiation operator (2 to the power of 2)
+// console.log(2/2); // division operator
+// console.log(2%3); // modulus operator (remainder of division)
+
+
+let str1 = "hello"
+let str2 = "jarvis"
+
+let str3 = str1 +" "+ str2; // concatenation of strings
+// console.log(str3); // "hello jarvis"
+
+console.log("1" + 2); // "12" (string concatenation)
+console.log(1 + "2"); // "12" (string concatenation)
+console.log(1 + 2 + "3"); // "33" (number addition first, then string concatenation)
+console.log("1" + "2" + 3); // "123" (string concatenation)
+console.log("1" + 2 + 2); // "122" (string concatenation)
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
