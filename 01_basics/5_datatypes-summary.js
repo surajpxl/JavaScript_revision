@@ -35,3 +35,32 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ********************Stack and Heap***************************
+// Stack: Primitive data types are stored in stack memory
+// Heap: Non-primitive data types are stored in heap memory
+// Stack is faster than heap
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "codex suraj";
+
+let anotherName = myYoutubeName
+anotherName = "jarvis";
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+
+let userOne = {
+    email: "user@gmai.com",
+    upiId: "user@upi"
+}
+
+let userTwo = userOne;
+userTwo.email = "jarvis@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
