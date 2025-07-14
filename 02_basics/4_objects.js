@@ -57,6 +57,8 @@ users[1].email
 
 
 
+// ***********Object destructuring*************
+
 const course = {
     coursename: "js in hindi",
     price: "999",
